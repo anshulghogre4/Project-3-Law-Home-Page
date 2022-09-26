@@ -1,0 +1,163 @@
+*{
+    border: 0;
+    margin: 0;
+    outline: 0;
+    background-color: #272814;
+    
+   
+  }
+
+
+body{
+    margin: 0;
+    border: 0;
+}
+
+
+/*  Navbar Starts */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+    height: 10vh;
+    align-items: top baseline;
+    
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.navbar img{
+    display: flex;
+    flex: 1;
+        height: 35px;
+        cursor: pointer;
+}
+ .list{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+        font-weight: 100 ;
+   
+    font-family: 'Montserrat',sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;        
+ }
+ 
+ .list-item{
+     list-style-type: none;
+    color: #b2bec3;
+    font-size: 15px;
+    font-weight:lighter;
+    cursor: pointer;
+ }
+
+ .list-item:hover{
+    color: #ffffff; 
+ }
+
+.button-small{
+    display: flex;
+    flex-direction: row;
+    color: #7b8316;
+   border: 1px solid #7b8316;
+   padding: 8px 20px;
+   border-radius: 8px;
+   font-family: 'Montserrat',sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   cursor: pointer;
+}
+
+/*  Hero section Starts */
+
+.hero_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Column_left{
+    
+    font-family: 'Montserrat',sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+   font-size: 60px;
+   text-align: start; 
+   width: 500px; 
+   margin-left: 60px;
+   text-transform: capitalize;
+}
+
+.Column_right{
+    font-family: 'Montserrat',sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b2bec3;
+    text-align: start;
+    width: 380px;
+    margin-right: 60px;
+}
+
+
+.heroo{
+    padding-bottom: 30px;   
+}
+
+/* Image section */
+
+.image{
+    height: 70vh;
+   background: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 10% 50% ;
+}
+
+
+
+
+
+/* arrow Icons  */
+
+
+
+    .bottom_Toggle{
+        height: 13vh;
+         background-color: #272814;
+        display: flex;
+         flex-direction: row;
+         justify-content: end;
+      
+    }
+
+    .btp1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;       
+    }
+    .left1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 13vh;
+        width: 13vh;
+        background-color: #39372D;
+    }
+    .right1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 13vh;
+        width: 13vh;
+        background-color:#A08F36;
+    }
+
+    .left2{
+        width: 60px;
+        background-color: #39372D;
+        cursor: pointer;
+    }
+    .right2{
+        width: 60px;
+        background-color:#A08F36;
+        cursor: pointer;
+    }
